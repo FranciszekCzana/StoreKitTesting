@@ -14,7 +14,10 @@
 		37D6134228B4FA6900086A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D6134028B4FA6900086A11 /* LaunchScreen.storyboard */; };
 		37D6134C28B4FA6900086A11 /* StoreKitTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6134B28B4FA6900086A11 /* StoreKitTestAppTests.swift */; };
 		37D6135628B4FA6900086A11 /* StoreKitTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6135528B4FA6900086A11 /* StoreKitTestAppUITests.swift */; };
-		37D6135828B4FA6900086A11 /* StoreKitTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6135728B4FA6900086A11 /* StoreKitTestAppUITestsLaunchTests.swift */; };
+		37D6136528B4FAA300086A11 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 37D6136428B4FAA300086A11 /* Configuration.storekit */; };
+		37D6139D28B4FF4F00086A11 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 37D6136428B4FAA300086A11 /* Configuration.storekit */; };
+		37D6139E28B504AE00086A11 /* StoreKitProductsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6139B28B4FF3400086A11 /* StoreKitProductsProvider.swift */; };
+		37D6139F28B507FB00086A11 /* StoreKitProductsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6139B28B4FF3400086A11 /* StoreKitProductsProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,8 @@
 		37D6134B28B4FA6900086A11 /* StoreKitTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTestAppTests.swift; sourceTree = "<group>"; };
 		37D6135128B4FA6900086A11 /* StoreKitTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreKitTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D6135528B4FA6900086A11 /* StoreKitTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTestAppUITests.swift; sourceTree = "<group>"; };
-		37D6135728B4FA6900086A11 /* StoreKitTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37D6136428B4FAA300086A11 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		37D6139B28B4FF3400086A11 /* StoreKitProductsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitProductsProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		37D6132B28B4FA6700086A11 = {
 			isa = PBXGroup;
 			children = (
+				37D6136428B4FAA300086A11 /* Configuration.storekit */,
 				37D6133628B4FA6700086A11 /* StoreKitTestApp */,
 				37D6134A28B4FA6900086A11 /* StoreKitTestAppTests */,
 				37D6135428B4FA6900086A11 /* StoreKitTestAppUITests */,
@@ -98,6 +103,7 @@
 			children = (
 				37D6133728B4FA6700086A11 /* AppDelegate.swift */,
 				37D6133928B4FA6700086A11 /* ViewController.swift */,
+				37D6139B28B4FF3400086A11 /* StoreKitProductsProvider.swift */,
 				37D6133B28B4FA6700086A11 /* Main.storyboard */,
 				37D6133E28B4FA6900086A11 /* Assets.xcassets */,
 				37D6134028B4FA6900086A11 /* LaunchScreen.storyboard */,
@@ -117,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				37D6135528B4FA6900086A11 /* StoreKitTestAppUITests.swift */,
-				37D6135728B4FA6900086A11 /* StoreKitTestAppUITestsLaunchTests.swift */,
 			);
 			path = StoreKitTestAppUITests;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D6139D28B4FF4F00086A11 /* Configuration.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D6136528B4FAA300086A11 /* Configuration.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D6139E28B504AE00086A11 /* StoreKitProductsProvider.swift in Sources */,
 				37D6133A28B4FA6700086A11 /* ViewController.swift in Sources */,
 				37D6133828B4FA6700086A11 /* AppDelegate.swift in Sources */,
 			);
@@ -270,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D6139F28B507FB00086A11 /* StoreKitProductsProvider.swift in Sources */,
 				37D6135628B4FA6900086A11 /* StoreKitTestAppUITests.swift in Sources */,
-				37D6135828B4FA6900086A11 /* StoreKitTestAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
